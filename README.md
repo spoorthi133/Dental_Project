@@ -2,7 +2,7 @@
 
 An AI-powered medical image analysis application for **maxillary sinus segmentation, anatomical measurement, and gender prediction from CBCT scans**.
 
-The system accepts either a collection of DICOM slices or an NRRD volume, performs automated 3D segmentation using a trained **3D U-Net**, extracts sinus measurements, and uses a machine-learning model to predict gender based on the left maxillary sinus volume.
+The system accepts either a collection of DICOM slices or an NRRD volume, performs automated 3D segmentation using a trained **3D U-Net**, extracts sinus measurements, and uses a machine-learning model to predict gender based on the maxillary sinus volume.
 
 > **Academic / Research Prototype**
 > This project is intended for educational and research purposes and is not a medical diagnostic system.
@@ -27,7 +27,6 @@ The system accepts either a collection of DICOM slices or an NRRD volume, perfor
 * 💾 Export processed medical volumes
 * 🖼️ Generate segmentation preview images
 * 📑 Generate downloadable Excel reports
-* 🌙 Dark-themed Streamlit interface
 
 ---
 
