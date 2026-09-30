@@ -5,3 +5,8 @@ scipy
 tensorflow
 pynrrd
 matplotlib
+pandas
+openpyxl
+Pillow
+joblib
+scikit-learn

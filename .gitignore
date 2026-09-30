@@ -1,4 +1,23 @@
-# Dependencies
+# Python environments
+.venv/
+myenv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated files
+results/
+temp/
+
+# Medical data
+*.dcm
+*.nrrd
+*.nii
+*.nii.gz
+
+# Node
 node_modules/
 npm-debug.log
 yarn-error.log
@@ -27,10 +46,3 @@ logs/
 
 # OS
 Thumbs.db
-results
-temp
-_pycache__/
-/_pycache__/
-
-models
-myenv
